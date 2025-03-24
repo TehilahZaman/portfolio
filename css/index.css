@@ -1,0 +1,83 @@
+/* body {
+  margin: auto 5%;
+} */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header ul {
+  justify-content: flex-end;
+  /* margin-right: 25px; */
+}
+
+.header li {
+  padding: 5px;
+}
+
+.hero {
+  background-color: #e5cece;
+  position: relative;
+  padding: 20px;
+  /* right: 0;
+  bottom: 70%;
+  top: 8%; */
+}
+
+.skills ul {
+  justify-content: space-evenly;
+}
+
+.projects p {
+  width: 350px;
+  height: 85px;
+  /* text-align: center; */
+  margin-left: 20px;
+}
+
+.projects ul {
+  justify-content: space-evenly;
+  margin: auto 7%;
+}
+
+.projects li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+
+.projects div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects button {
+  width: 27%;
+  height: 35px; 
+  border-radius: 1ch;
+  background-color: #e5cece;
+}
+
+.about p {
+  margin: 15px;
+}
+
+.socials ul {
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.socials button {
+  width: 65px;
+  height: 30px;
+  border-radius: 1ch;
+  background-color: #e5cece;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
