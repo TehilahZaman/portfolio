@@ -1,6 +1,11 @@
-/* body {
-  margin: auto 5%;
-} */
+body {
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "hero"
+    "main";
+}
 
 ul {
   list-style-type: none;
@@ -11,20 +16,34 @@ ul {
 
 .header ul {
   justify-content: flex-end;
-  /* margin-right: 25px; */
 }
 
 .header li {
   padding: 5px;
 }
 
-.hero {
+#hero {
   background-color: #e5cece;
-  position: relative;
-  padding: 20px;
-  /* right: 0;
-  bottom: 70%;
-  top: 8%; */
+  padding: 4%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 5ch;
+}
+
+#hero h2 {
+  font-size: 3.5ch;
+}
+
+#hero p {
+  margin-top: 6%;
+}
+
+h2 {
+  text-align: center;
 }
 
 .skills ul {
@@ -46,7 +65,7 @@ ul {
 .projects li {
   display: flex;
   flex-direction: column;
-  margin: 20px 40px;
+  margin: 20px 30px;
 }
 
 .projects div {
@@ -56,13 +75,16 @@ ul {
 
 .projects button {
   width: 27%;
-  height: 35px; 
+  height: 35px;
   border-radius: 1ch;
   background-color: #e5cece;
 }
 
 .about p {
   margin: 15px;
+  width: 60%;
+  text-align: justify;
+  margin-left: 19%;
 }
 
 .socials ul {
