@@ -15,7 +15,9 @@ ul {
 }
 
 .header ul {
-  justify-content: flex-end;
+  background-color: #e5cece;
+  position: absolute;
+  right: 15px;
 }
 
 .header li {
@@ -32,10 +34,12 @@ ul {
 
 h1 {
   font-size: 5ch;
+  margin-bottom: 20px;
 }
 
 #hero h2 {
   font-size: 3.5ch;
+  margin: 0;
 }
 
 #hero p {
@@ -46,53 +50,62 @@ h2 {
   text-align: center;
 }
 
-.skills ul {
+#skills ul {
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-width: 50%;
 }
 
-.projects p {
+#projects p {
   width: 350px;
-  height: 85px;
+  height: 70px;
   /* text-align: center; */
   margin-left: 20px;
 }
 
-.projects ul {
+#projects ul {
   justify-content: space-evenly;
   margin: auto 7%;
 }
 
-.projects li {
+#projects li {
   display: flex;
   flex-direction: column;
   margin: 20px 30px;
 }
 
-.projects div {
+/* #projects img {
+  width: 600px;
+  height: 300px;
+} */
+
+#projects div {
   display: flex;
   justify-content: space-evenly;
 }
 
-.projects button {
+#projects button {
   width: 27%;
   height: 35px;
   border-radius: 1ch;
   background-color: #e5cece;
 }
 
-.about p {
+#about p {
   margin: 15px;
   width: 60%;
   text-align: justify;
-  margin-left: 19%;
+  margin-left: 21%;
+  margin-right: 25%;
 }
 
-.socials ul {
+#socials ul {
   justify-content: space-evenly;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 2%;
 }
 
-.socials button {
+#socials button {
   width: 65px;
   height: 30px;
   border-radius: 1ch;
